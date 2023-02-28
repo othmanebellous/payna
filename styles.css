@@ -295,6 +295,13 @@ input{
     cursor: pointer;
 }
 
+@media (min-width:992px) and (max-width:1200px){ 
+    .email, .submit{
+        width: 100%;
+    }
+}
+
+
 /* mobile */
 @media (max-width:767px){
 
