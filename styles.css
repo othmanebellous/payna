@@ -386,6 +386,10 @@ input{
         gap: 30px;
     }
 
+    .feature p{
+        max-width: 100%;
+    }
+
     .showcase{
         display: flex;
         flex-direction: column;
