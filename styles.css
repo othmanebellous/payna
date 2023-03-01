@@ -148,7 +148,10 @@ input{
 @media (min-width:992px) and (max-width:1200px){
     
     .hero-image::after{
-        right:  176px;
+        display: none;
+    }
+    .hero-image{
+        margin-right: 0px;
     }
 }
 
