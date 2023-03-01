@@ -132,7 +132,8 @@ input{
 .hero-image::before{
     content: url(images/analytics.png);
     position: absolute;
-    top: 142px;
+    top: calc(50% + 9px);
+    transform: translateY(-50%);
     left: -130px;
 
 }
@@ -141,7 +142,7 @@ input{
     content: url(images/bulk-export.png);
     position: absolute;
     right: -65px;
-    top: 62px;
+    top: 59px;
 }
 
 @media (min-width:992px) and (max-width:1200px){
