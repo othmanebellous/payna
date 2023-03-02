@@ -388,6 +388,10 @@ input{
         padding: 80px 0;
     }
 
+    .features-container{
+        grid-template-columns: repeat(auto-fill, minmax(273px, 1fr));
+    }
+
     .feature p{
         max-width: 100%;
     }
@@ -407,6 +411,9 @@ input{
     .email, .submit{
         display: block;
         margin: 0;
+    }
+    .email{
+        padding: 12px 57px 12px 24px;
     }
 
     form{
