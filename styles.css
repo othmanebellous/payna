@@ -202,6 +202,7 @@ input{
     color: #575455;
     max-width: 386px;
     margin: 0 auto 50px;
+    line-height: 32px;
 }
 
 .features-container{
@@ -237,6 +238,7 @@ input{
     color: #575455;
     max-width: 227px;
     margin-top: 12px;
+    line-height: 32px;
 }
 
 .showcase{
@@ -279,6 +281,7 @@ input{
     color: #575455;
     max-width: 395px;
     margin: 20px 0 40px;
+    line-height: 32px;
 }
 
 .email{
