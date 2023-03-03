@@ -7,13 +7,14 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- css file -->
     <link rel="stylesheet" href="styles.css">
     <title>Payna</title>
 </head>
 <body>
-    <header class="container">
+    <div class="container">
+    <header class="flex-betwn-center" >
         <div class="logo">
            <a href="#"><img src="images/logo.png" alt=""></a>
         </div>
@@ -27,11 +28,11 @@
         </nav>
         <a class="sign-in" href="#">Sign In</a>
     </header>
-    <main class="container">
-        <section class="hero">
+    <main>
+        <section class="hero flex-betwn-center">
             <div class="hero-text">
                 <h1>
-                    Manage Payroll Like an Expert
+                    Manage Payroll<br> Like an Expert
                 </h1>
                 <p>
                     Payna is helping you to setting up the payroll without
@@ -42,8 +43,42 @@
             <div class="hero-image" >
                 <img src="images/girl.png" alt="">
             </div>
+            <div class="analytics">
+                <div class="icon-and-text">
+                    <div class="icon flex-betwn-center">
+                        <img src="images/analytics-icon.png" alt="">
+                    </div>
+                    <div class="analytics-text">
+                        <h2>Analytics</h2>
+                        <span>Real time report</span>
+                    </div>
+                </div>
+                <div class="chart">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="bulk-export">
+                <div class="icon-and-text">
+                    <div class="icon flex-betwn-center">
+                        <img src="images/analytics-icon.png" alt="">
+                    </div>
+                    <div class="analytics-text">
+                        <h2>Bulk Export</h2>
+                        <span>Work faster 200%</span>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="trust">
+        <section class="trust flex-betwn-center">
             <p class="trust-text"><span>Trusted by</span> Global Companies</p>
             <div class="trust-logos">
                 <img src="images/apple-logo.png" alt="">
@@ -54,12 +89,14 @@
             </div>
         </section>
         <section id="features" class="features">
-            <span>WORK BETTER</span>
-            <h2>For Your Business</h2>
-            <p class="features-text">
-                We did research what your company needs and
-                here we are providing all of them just for you
-            </p>
+            <div class="features-text">
+                <h2 class="special-h2">WORK BETTER</h2>
+                <span class="special-span">For Your Business</span>
+                <p class="special-p">
+                    We did research what your company needs and
+                    here we are providing all of them just for you
+                </p>
+            </div>
             <div class="features-container">
                 <div class="feature feat-one">
                     <h3>Share Insights</h3>
@@ -110,17 +147,20 @@
                 <img src="images/video-image.png" alt="">
             </div>
             <div class="save">
-                <span>SAVE MORE TIME</span>
-                <h2>And Boost Productivity</h2>
-                <p>Your employees can bring any success into your
+                <h2 class="special-h2">SAVE MORE TIME</h2>
+                <span class="special-span">And Boost Productivity</span>
+                <p class="special-p">Your employees can bring any success into your
                     business, so we need to take care of them
                 </p>
                 <form action="">
-                    <input class="email" type="email" name="email" id="" placeholder="Email Address">
-                    <input class="get-started submit" type="submit" value="Get Started">
+                    <div class="input-holder">
+                        <input class="email" type="email" name="email" id="" placeholder="Email Address">
+                        <input class="get-started submit" type="submit" value="Get Started">
+                    </div>
                 </form>
             </div>
         </section>
     </main>
+</div>
 </body>
 </html>
