@@ -112,6 +112,10 @@ nav{
     transform: translate(-50%, -50%);
 }
 
+.icon {
+    justify-content: center;
+}
+
 .icon-and-text{
     display: flex;
     gap: 12px;
